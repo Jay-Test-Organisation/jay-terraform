@@ -3,6 +3,6 @@ terraform {
      resource_group_name  = "demo-resources"
      storage_account_name = "remotejaypan1"
       container_name       = "prod-tfstate"
-      key                  = "terraform.tfstate"
+      key                  = "prod.terraform.tfstate"
   }
 }
